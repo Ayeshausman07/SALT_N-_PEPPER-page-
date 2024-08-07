@@ -1,0 +1,713 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 10px 0;
+    border-bottom: 3px solid #cc0000;
+}
+
+.containerrr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinks li {
+    margin: 0 15px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navlinks a:hover {
+    color: #cc0000;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.franchiser-buttonn, .orderr-buttonn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.franchiser-buttonn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.franchiser-buttonn:hover {
+    background-color: white;
+    color: black;
+}
+
+.orderr-buttonn {
+    background-color: #cc0000;
+    color: white;
+}
+
+.orderr-buttonn span {
+    margin-left: 10px;
+}
+
+.orderr-buttonn:hover {
+    background-color: #ff0000;
+}
+
+.main {
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 83vh;
+}
+
+.text {
+    background-color: black;
+    color: white;
+    padding: 50px 40px 70px;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.brand {
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.brand img {
+    width: 100%;
+    height: 55%;
+    border-radius: 7px;
+}
+
+button {
+    background-color: #000;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.s1 {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.background-S {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/s-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.franchise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.franchise-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.franchise-info .city {
+    color: #e74c3c;
+    font-size: 1.2em;
+}
+
+.franchise-info h2 {
+    margin: 0.5em 0;
+}
+
+.franchise-info p {
+    margin: 0.5em 0;
+}
+
+.franchise-info i {
+    margin-right: 10px;
+}
+
+.directions-btn {
+    background-color: #fff;
+    border: 2px solid #e74c3c;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.directions-btn i {
+    margin-left: 10px;
+}
+
+.directions-btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.franchise-image {
+    flex: 1;
+}
+
+.franchise-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sec2 {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.franchisess-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+}
+
+.franchisess-container h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.ho {
+    background-color: #000;
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+
+.franchisee {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.franchisee img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.franchisee h2 {
+    color: #ff0000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.franchisee h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.franchisee p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.directions-btns {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .containerrr {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+
+    .brands {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .franchise {
+        flex-direction: column;
+    }
+
+    .franchise-image {
+        margin-bottom: 20px;
+    }
+
+    .franchisess-container {
+        flex-direction: column;
+    }
+
+    .franchisee {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .franchiser-buttonn, .orderr-buttonn {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .main {
+        height: 50vh;
+    }
+
+    .text {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .brand {
+        width: 100%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .franchise {
+        padding: 10px;
+    }
+
+    .franchise-info {
+        padding: 10px;
+        display: grid;
+        justify-items: baseline;
+    }
+
+    .directions-btn {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .sec2 {
+        padding: 10px;
+    }
+
+    .franchisess-container h1 {
+        font-size: 24px;
+    }
+
+    .franchisee img {
+        height: auto;
+    }
+
+    .directions-btns {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .last2, .franchisesss-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bodyy {
+        padding: 20px;
+    }
+
+    .containerr {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .franchisei-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .franchiseibure {
+        width: 100%;
+    }
+}
+
+.last2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.franchisesss-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.franchiseee h2 {
+    color: #ff0000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.franchiseee h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.franchiseee p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.franchiseee img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.h111 {
+    padding: 50px 40px 70px;
+}
+
+.hoho {
+    padding: 50px 40px 70px;
+    margin-top: 25px;
+}
+
+.scc {
+    margin-top: 25px;
+}
+
+.directionsss-btns {
+    background-color: rgb(9, 58, 9);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.franchiseey img {
+    width: 500px;
+    height: 500px;
+    margin-left: 2px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.franchiseey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    padding: 5px;
+    background-color: #111;
+}
+
+.franchiseey-image img {
+    width: 600px;
+    height: 70%;
+}
+
+.directionsss-btn {
+    background-color: rgb(91, 226, 91);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bodyy {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.containerr {
+    width: 80%;
+    margin-top: 180px;
+    padding: 100px;
+}
+
+.franchisei-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 130px;
+}
+
+.franchisei {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.franchiseibure {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+}
+
+.franchiseibure:last-child {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.location-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background: url('location-icon.png') no-repeat center center;
+    background-size: contain;
+}
+
+.status {
+    color: red;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.name, .location, .city {
+    margin: 5px 0;
+}
+
+.social-feed {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.social-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footry {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo, .footer-links, .footer-contact, .footer-social {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-logo a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-links h3, .footer-contact h3, .footer-social h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 150px;
+    height: 90px;
+}
+
+.footer-social i {
+    width: 20px;
+    height: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
